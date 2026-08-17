@@ -1,0 +1,8 @@
+:root { --background: #f6f3ee; --ink: #111111; --blue: #2046f2; }
+* { box-sizing: border-box; }
+html { background: var(--background); color: var(--ink); }
+body { margin: 0; font-family: Inter, Arial, sans-serif; }
+main { min-height: 100vh; padding: 12vw 8vw; }
+h1 { max-width: 780px; font: 500 clamp(3.5rem, 9vw, 7rem)/.9 'Cormorant Garamond', Georgia, serif; letter-spacing: -.04em; }
+.eyebrow { color: var(--blue); font-size: .75rem; letter-spacing: .16em; }
+.lede { max-width: 520px; color: #5e5a53; font-size: 1.125rem; line-height: 1.6; }
