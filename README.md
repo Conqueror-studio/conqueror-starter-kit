@@ -1,7 +1,9 @@
-# Conqueror Starter
+# Conqueror Studio Starter
 
-The implementation base for content-led studio and client websites. It is a blueprint—not a deployed application—so teams select current compatible package versions at initialization rather than inheriting stale dependencies.
+This repository is now a runnable Next.js baseline for content-led studio and client websites.
 
-## Use
+Commands: npm install, npm run dev, npm run build, npm run lint, npm run test.
 
-Copy this repository to a new project, record the CSOS/CDS versions in the project README, complete the project brief, then initialize the current stable Next.js stack. Hermes must follow `.ai/agent-brief.md`.
+Copy it into a new project, add studio-manifest.yml, and record exact CSOS, CDS, Starter, and Assets versions.
+
+Local fixtures are CMS-ready. Do not add unapproved claims or fabricated social proof.
